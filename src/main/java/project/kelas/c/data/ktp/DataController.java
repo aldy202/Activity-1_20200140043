@@ -62,6 +62,7 @@ public class DataController {
         ktp.add(Arrays.asList("020","33030200300320","acika wirusih",
                 "tanjungkulon"));
         
+        
         data.addAttribute("dataktp", ktp);
         return "dataviewer";
     }
